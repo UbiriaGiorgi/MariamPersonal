@@ -1,0 +1,116 @@
+body {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+#title {
+    background-color: #F675A8;
+}
+
+#Logo {
+    font-size: 2rem;
+}
+
+#body {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1 {
+    margin-top: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+    float: left;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%; 
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px 0;
+}
+
+.nav-link{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.kewt {
+    max-width: 80%;
+    float: right;
+}
+
+#skills {
+    margin-bottom: 150px;
+}
+
+#skills > .skill-row > #MySkill1 {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+#skills > .skill-row > #MySkill2 {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+#skills > .skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    /* margins and paddings work clockwise - top, right, bot, left*/
+}
+
+#skills > .skill-row > h3, #skills > .skill-row > p {
+    text-align: left;
+}
+
+#skills > .skill-row > p {
+    line-height: 2;
+}
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #F675A8;
+    color: #fff;
+}
+
+.test-image {
+    width: 25%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-text {
+    margin-bottom: 70px;
+}
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.footer-ico {
+    margin: 20px;
+}
